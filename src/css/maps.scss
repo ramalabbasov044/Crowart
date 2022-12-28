@@ -18,6 +18,10 @@ button {
   border: 0;
 }
 .container {
+  height: 100%;
+  .navigation-Bar {
+    display: none;
+  }
   .row {
     padding-top: 4rem !important;
     .selected {
@@ -165,6 +169,9 @@ button {
         }
       }
     }
+  }
+  .flexMiddle {
+    display: none;
   }
   & .Container {
     width: 100%;
@@ -647,6 +654,7 @@ button {
   .category_link {
     color: #727272;
   }
+
   .categorys {
     font-weight: 600 !important;
   }
@@ -930,6 +938,337 @@ button {
   @media (max-width: 991px) {
     .footer-menu {
       padding-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .go_to_stories {
+      .unSendHomePage {
+        .harita {
+          margin-left: 10px;
+          font-size: 60px !important;
+        }
+      }
+      .listProduct {
+        .miniList {
+          .textmap {
+            color: #fff;
+            font-weight: 600;
+            font-size: 13px !important;
+          }
+          .urun {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .flexMiddle {
+      width: 100%;
+      height: 60px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+      padding: 0px 10px;
+      // display: none;
+      .LogoCrowart {
+        width: 150px;
+        height: 60px;
+      }
+    }
+    & .navigation-Bar {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 350;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      background-color: #fff;
+      box-shadow: 0 0 9px rgb(0 0 0 / 12%);
+      height: 56px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      .journal {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .shopIcon {
+          color: #333;
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          justify-content: center;
+        }
+        .shopText {
+          color: #333;
+          font-size: 11px;
+          height: 30px;
+        }
+      }
+      .filter {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .shopIcon {
+          color: #333;
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          justify-content: center;
+        }
+        .shopText {
+          color: #333;
+          font-size: 11px;
+          height: 30px;
+        }
+      }
+      .sebet {
+        flex-direction: column;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .shopIcon {
+          color: #333;
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          justify-content: center;
+        }
+        .shopText {
+          color: #333;
+          font-size: 11px;
+          height: 30px;
+        }
+      }
+      .menuBar {
+        width: 20%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .shopIcon {
+          color: #333;
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          justify-content: center;
+        }
+        .shopText {
+          color: #333;
+          font-size: 11px;
+          height: 30px;
+        }
+      }
+    }
+    .Container_Bottom {
+      display: none;
+    }
+    .go_to_stories {
+      .unSendHomePage {
+        .harita {
+          margin-left: 10px;
+          font-size: 45px !important;
+        }
+      }
+      .listProduct {
+        .miniList {
+          .textmap {
+            color: #fff;
+            font-weight: 600;
+            font-size: 10px !important;
+          }
+          .urun {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 10px !important;
+          }
+        }
+      }
+    }
+    .Contact_Header {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .Container {
+      display: none;
+    }
+    .Category {
+      .Featured_Categories {
+        .Category_Maps {
+          .total_Maps {
+            .imgTop {
+              .Normal_Map_Pictures {
+                width: 330px !important;
+                height: 330px !important;
+                transition: transform 0.2s;
+              }
+              .mapText {
+                position: absolute;
+                border: 0;
+                width: 160px !important;
+                height: 50px !important;
+                background-color: #000;
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px !important;
+              }
+            }
+          }
+          .add_Maps {
+            .Bathymetric_Map_Maps {
+              .Bathymetric {
+                width: 165px !important;
+                height: 165px !important;
+                object-fit: cover;
+                transition: transform 0.2s;
+                padding: 15px;
+              }
+              .mapText2 {
+                position: absolute;
+                border: 0;
+                width: 84px !important;
+                height: 49px !important;
+                background-color: #000;
+                color: #fff;
+                font-weight: 500;
+                font-size: 9px !important;
+              }
+              .Fantastic {
+                width: 165px !important;
+                height: 165px !important;
+                object-fit: cover;
+                transition: transform 0.2s;
+                padding: 15px;
+              }
+            }
+            .Crowatch_Table_Maps {
+              .totsmap2 {
+                .Crowatch {
+                  width: 165px !important;
+                  height: 165px !important;
+                  object-fit: cover;
+                  transition: transform 0.2s;
+                  padding: 15px;
+                }
+                .mapText3 {
+                  position: absolute;
+                  border: 0;
+                  width: 70px !important;
+                  height: 39px !important;
+                  background-color: #000;
+                  color: #fff;
+                  font-weight: 500;
+                  font-size: 10px !important;
+                }
+                .Tablolar {
+                  width: 165px !important;
+                  height: 165px !important;
+                  object-fit: cover;
+                  transition: transform 0.2s;
+                  padding: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .go_to_stories {
+      .unSendHomePage {
+        .harita {
+          margin-left: 10px;
+          font-size: 40px !important;
+        }
+      }
+      .listProduct {
+        .miniList {
+          .textmap {
+            color: #fff;
+            font-weight: 600;
+            font-size: 6px !important;
+          }
+          .urun {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 10px !important;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .sidebar-filter {
+      margin-top: 2252px;
+      padding-left: 45px;
+    }
+    .product_list_widget > li img {
+      float: left;
+      min-width: 65px;
+      max-width: 65px;
+      margin-left: 0px;
+      background-color: red;
+    }
+  }
+  @media screen and (max-width: 467px) {
+    .go_to_stories {
+      width: 100%;
+      height: 250px;
+      background-color: #0a0a0a;
+      background-size: cover;
+      background-position: center center;
+      padding: 60px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+      .unSendHomePage {
+        .harita {
+          margin-left: 10px;
+          font-size: 32px !important;
+        }
+      }
+      .listProduct {
+        .miniList {
+          .textmap {
+            color: #fff;
+            font-weight: 600;
+            font-size: 5px !important;
+          }
+          .urun {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 8px !important;
+          }
+        }
+      }
     }
   }
 }
