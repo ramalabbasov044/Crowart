@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "npm run development",
+    "start": "npm start",
     "build": "webpack --node production",
     "watch": "mix watch",
     "test": "echo \"Error: no test specified\" && exit 1"

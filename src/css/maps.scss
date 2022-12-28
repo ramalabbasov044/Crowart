@@ -1271,4 +1271,38 @@ button {
       }
     }
   }
+  @media screen and (max-width: 372px) {
+     .go_to_stories {
+      width: 100%;
+      height: 250px;
+      background-color: red;
+      background-size: cover;
+      background-position: center center;
+      padding: 60px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+      .unSendHomePage {
+        .harita {
+          margin-left: 10px;
+          font-size: 32px !important;
+        }
+      }
+      .listProduct {
+        .miniList {
+          .textmap {
+            color: #fff;
+            font-weight: 600;
+            font-size: 3px !important;
+          }
+          .urun {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 8px !important;
+          }
+        }
+      }
+    }
+  }
 }
