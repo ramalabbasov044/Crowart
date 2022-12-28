@@ -17,8 +17,7 @@ button {
   outline: none;
   border: 0;
 }
-.container {
-  height: 100%;
+header {
   .navigation-Bar {
     display: none;
   }
@@ -490,6 +489,10 @@ button {
       }
     }
   }
+}
+.container {
+  height: 100%;
+
   .go_to_stories {
     width: 100%;
     height: 280px;
@@ -1261,21 +1264,26 @@ button {
           .textmap {
             color: #fff;
             font-weight: 600;
-            font-size: 5px !important;
+            font-size: 6px !important;
           }
           .urun {
             color: rgba(255, 255, 255, 0.6);
-            font-size: 8px !important;
+            font-size: 6px !important;
           }
         }
       }
     }
+    .row {
+      .tst {
+        font-size: 12px;
+      }
+    }
   }
   @media screen and (max-width: 372px) {
-     .go_to_stories {
+    .go_to_stories {
       width: 100%;
       height: 250px;
-      background-color: red;
+      background-color: #0a0a0a;
       background-size: cover;
       background-position: center center;
       padding: 60px 0px;

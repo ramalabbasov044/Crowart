@@ -39,12 +39,472 @@ ul {
     color: #777777;
   }
 }
-.container{
-  height: 100%;
+// header {
+//   .navigation-Bar {
+//     display: none;
+//   }
+//   & .Contact_Header {
+//     width: 100%;
+//     height: 40px;
+//     background-color: rgba(0, 0, 0, 1);
+//     padding: 0px 78.5px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     color: white;
+
+//     & .Contact_End {
+//       width: 174.703px;
+//       height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: space-between;
+
+//       & .Contact_End_Social {
+//         width: 91px;
+//         height: 26px;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: space-evenly;
+//         padding: 0px 10px;
+
+//         & .Facebook_Box {
+//           display: flex;
+//           align-items: center;
+//           text-align: center;
+//           justify-content: center;
+//           cursor: pointer;
+
+//           & .Social_Facebook_Icon {
+//             font-size: 13px;
+//           }
+//         }
+
+//         .Twitter_Box {
+//           display: flex;
+//           align-items: center;
+//           text-align: center;
+//           justify-content: center;
+//           cursor: pointer;
+
+//           & .Social_Twitter_Icon {
+//             font-size: 13px;
+//           }
+//         }
+
+//         .Instagram_Box {
+//           display: flex;
+//           align-items: center;
+//           text-align: center;
+//           justify-content: center;
+//           cursor: pointer;
+
+//           & .Social_Instagram_Icon {
+//             font-size: 13px;
+//           }
+//         }
+//       }
+
+//       .Contact_Link {
+//         padding: 0px 10px;
+//         height: 40px;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         border-right: 1px solid darkgray;
+//         border-left: 1px solid darkgray;
+
+//         & .text_Decoration {
+//           width: 51.703px;
+//           height: 15.391px;
+//           text-decoration: none;
+//           display: flex;
+//           justify-content: center;
+//           text-align: center;
+//           align-items: center;
+
+//           & .Contact_Text {
+//             font-size: 12px;
+//             color: white;
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .flexMiddle {
+//     display: none;
+//   }
+//   & .Container {
+//     width: 100%;
+//     height: 105px;
+//     border-bottom: 1px solid #e8e8e8;
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     justify-content: space-between;
+
+//     & .Main_Logo {
+//       width: 20%;
+//       height: 120px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .Logo {
+//         width: 250px;
+//         height: 84.125px;
+//         // padding: 5px 0px;
+//       }
+//     }
+
+//     & .Product_Search {
+//       width: 51%;
+//       height: 105px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: start;
+//       margin-left: 12px;
+
+//       & .Search_Input {
+//         width: 609px;
+//         height: 42px;
+//         padding-right: 50px;
+//         padding-left: 15px;
+//         height: 46px;
+//         font-size: 15px;
+//         border-radius: 35px;
+//         border: 3px solid rgba(129, 129, 129, 0.2);
+//         color: #777;
+//       }
+
+//       & .Search_Input::placeholder {
+//         color: #777;
+//       }
+//     }
+
+//     .Container_End {
+//       width: 29%;
+//       height: 105px;
+//       // margin-right: -10px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .Login_SignUp {
+//         width: 182.359px;
+//         height: 40px;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         padding: 0px 10px;
+//         margin-left: 20px;
+
+//         & .Login {
+//           color: #333;
+//           font-size: 13px;
+//           text-decoration: none;
+//           font-weight: 600;
+//         }
+
+//         & .SignUp {
+//           color: #333;
+//           font-size: 13px;
+//           text-decoration: none;
+//           margin-left: 3px;
+//           font-weight: 600;
+//         }
+
+//         & .Login:hover {
+//           color: #333;
+//           font-size: 13px;
+//           color: rgba(51, 51, 51, 0.6);
+//           text-decoration: none;
+//           font-weight: 600;
+//         }
+
+//         & .SignUp:hover {
+//           color: #333;
+//           font-size: 13px;
+//           text-decoration: none;
+//           margin-left: 3px;
+//           color: rgba(51, 51, 51, 0.6);
+//           font-weight: 600;
+//         }
+
+//         & .slash {
+//           margin-left: 3px;
+//           font-weight: 500;
+//         }
+//       }
+
+//       &.Login_SignUp:hover {
+//         color: rgba(51, 51, 51, 0.6);
+//         cursor: pointer;
+//       }
+
+//       & .Wish_List {
+//         width: 45px;
+//         height: 40px;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+
+//         & .Wish_List_Send {
+//           font-size: 20px;
+//           text-decoration: none;
+//           position: relative;
+//           color: black;
+
+//           & .heart {
+//             font-size: 20px;
+//           }
+
+//           & .heart:hover {
+//             font-size: 20px;
+//             color: rgba(51, 51, 51, 0.6);
+//           }
+//         }
+//       }
+
+//       & .basket {
+//         width: 94.328px;
+//         height: 40px;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: space-evenly;
+
+//         & .shopping {
+//           color: #333;
+//         }
+
+//         & .invoice {
+//           font-weight: 600;
+//           color: #333;
+//           font-size: 14px;
+//         }
+
+//         & .invoice:hover {
+//           font-weight: 600;
+//           color: rgba(51, 51, 51, 0.6);
+//           font-size: 14px;
+//           cursor: pointer;
+//         }
+//       }
+
+//       & .basket:hover {
+//         color: rgba(51, 51, 51, 0.6);
+//         cursor: pointer;
+//       }
+//     }
+//   }
+
+//   & .Container_Bottom {
+//     width: 100%;
+//     height: 52px;
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     justify-content: space-between;
+//     color: #333;
+
+//     & .map_half {
+//       //   width: 99.25px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       color: #333;
+//       justify-content: center;
+
+//       & .maps {
+//         color: #333;
+//         font-weight: 600;
+//         font-size: 13px;
+//         // border-right: 1px solid #777;
+//         padding-right: 10px;
+//       }
+
+//       & .maps:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+
+//     & .map_halfTwo {
+//       //   width: 234.5px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .fantastic_Maps {
+//         font-size: 13px;
+//         font-weight: 600;
+//         color: #333;
+//         // border-right: 1px solid #777;
+//         padding-right: 10px;
+//       }
+
+//       & .fantastic_Maps:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+
+//     & .map_halfThree {
+//       //   width: 187.25px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .bathymetric_Maps {
+//         color: #333;
+//         font-weight: 600;
+//         font-size: 13px;
+//         // border-right: 1px solid #777;
+//         padding-right: 10px;
+//       }
+
+//       & .bathymetric_Maps:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+
+//     & .map_halfFour {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       text-align: center;
+
+//       &:hover {
+//         margin-top: 185px;
+//         transition: 0.3s;
+
+//         .dropdown {
+//           display: block;
+//           z-index: 100;
+//           padding: 20px 20px 20px 20px;
+//         }
+//       }
+
+//       //   width: 104.25px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .dropdown {
+//         width: 200px;
+//         height: 185px;
+//         display: none;
+//         text-align: left;
+//         background-color: white;
+//         transition: 10.5s;
+
+//         .vintage:hover {
+//           color: black;
+//           font-weight: 600;
+//           cursor: pointer;
+//         }
+
+//         .city:hover {
+//           cursor: pointer;
+//           color: black;
+//           font-weight: 600;
+//         }
+
+//         .botancial:hover {
+//           cursor: pointer;
+//           color: black;
+//           font-weight: 600;
+//         }
+
+//         .all:hover {
+//           cursor: pointer;
+//           color: black;
+//           font-weight: 600;
+//         }
+//       }
+
+//       & .charts {
+//         color: #333;
+//         font-weight: 600;
+//         font-size: 13px;
+//         padding-right: 10px;
+//       }
+
+//       .charts:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+
+//     & .map_halfFife {
+//       //   width: 141.25px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .crowatchClock {
+//         color: #333;
+//         font-weight: 600;
+//         // border-right: 1px solid #777;
+//         padding-right: 10px;
+//         font-size: 13px;
+//       }
+
+//       & .crowatchClock:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+
+//     & .map_halfSexy {
+//       //   width: 128.25px;
+//       //   height: 40px;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+
+//       & .Crowart {
+//         color: #333;
+//         font-weight: 600;
+//         // border-right: 1px solid #777;
+//         padding-right: 10px;
+//         font-size: 13px;
+//       }
+
+//       & .Crowart:hover {
+//         color: #777;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+// }
+header {
+  width: 100% !important;
+
   .navigation-Bar {
-    display: none ;
+    display: none;
   }
-  & .Contact_Header {
+  .Contact_Header {
     width: 100%;
     height: 40px;
     background-color: rgba(0, 0, 0, 1);
@@ -54,15 +514,15 @@ ul {
     align-items: center;
     color: white;
 
-    & .Contact_End {
-      width: 174.703px;
+    .Contact_End {
+      width: 100%;
       height: 40px;
       display: flex;
       align-items: center;
       text-align: center;
-      justify-content: space-between;
+      justify-content: flex-end;
 
-      & .Contact_End_Social {
+      .Contact_End_Social {
         width: 91px;
         height: 26px;
         display: flex;
@@ -82,7 +542,6 @@ ul {
             font-size: 13px;
           }
         }
-
         .Twitter_Box {
           display: flex;
           align-items: center;
@@ -94,7 +553,6 @@ ul {
             font-size: 13px;
           }
         }
-
         .Instagram_Box {
           display: flex;
           align-items: center;
@@ -107,7 +565,6 @@ ul {
           }
         }
       }
-
       .Contact_Link {
         padding: 0px 10px;
         height: 40px;
@@ -135,10 +592,10 @@ ul {
       }
     }
   }
-  .flexMiddle{
+  .flexMiddle {
     display: none;
   }
-  & .Container {
+  .Container {
     width: 100%;
     height: 105px;
     border-bottom: 1px solid #e8e8e8;
@@ -146,169 +603,156 @@ ul {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-
-    & .Main_Logo {
-      width: 20%;
-      height: 120px;
+    .middle-header {
       display: flex;
+      justify-content: space-between;
       align-items: center;
       text-align: center;
-      justify-content: center;
-
-      & .Logo {
-        width: 250px;
-        height: 84.125px;
-        // padding: 5px 0px;
-      }
-    }
-
-    & .Product_Search {
-      width: 51%;
-      height: 105px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: start;
-      margin-left: 12px;
-
-      & .Search_Input {
-        width: 609px;
-        height: 42px;
-        padding-right: 50px;
-        padding-left: 15px;
-        height: 46px;
-        font-size: 15px;
-        border-radius: 35px;
-        border: 3px solid rgba(129, 129, 129, 0.2);
-        color: #777;
-      }
-
-      & .Search_Input::placeholder {
-        color: #777;
-      }
-    }
-
-    .Container_End {
-      width: 29%;
-      height: 105px;
-      // margin-right: -10px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .Login_SignUp {
-        width: 182.359px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding: 0px 10px;
-        margin-left: 20px;
-
-        & .Login {
-          color: #333;
-          font-size: 13px;
-          text-decoration: none;
-          font-weight: 600;
-        }
-
-        & .SignUp {
-          color: #333;
-          font-size: 13px;
-          text-decoration: none;
-          margin-left: 3px;
-          font-weight: 600;
-        }
-
-        & .Login:hover {
-          color: #333;
-          font-size: 13px;
-          color: rgba(51, 51, 51, 0.6);
-          text-decoration: none;
-          font-weight: 600;
-        }
-
-        & .SignUp:hover {
-          color: #333;
-          font-size: 13px;
-          text-decoration: none;
-          margin-left: 3px;
-          color: rgba(51, 51, 51, 0.6);
-          font-weight: 600;
-        }
-
-        & .slash {
-          margin-left: 3px;
-          font-weight: 500;
-        }
-      }
-
-      &.Login_SignUp:hover {
-        color: rgba(51, 51, 51, 0.6);
-        cursor: pointer;
-      }
-
-      & .Wish_List {
-        width: 45px;
-        height: 40px;
+      .Main_Logo {
+        width: 20%;
+        height: 120px;
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
 
-        & .Wish_List_Send {
-          font-size: 20px;
-          text-decoration: none;
-          position: relative;
-          color: black;
+        & .Logo {
+          width: 250px;
+          height: 84.125px;
+          // padding: 5px 0px;
+        }
+      }
+      .Product_Search {
+        width: 51%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: start;
+        margin-left: 12px;
+        & .Search_Input {
+          width: 609px;
+          height: 42px;
+          padding-right: 50px;
+          padding-left: 15px;
+          height: 46px;
+          font-size: 15px;
+          border-radius: 35px;
+          border: 3px solid rgba(129, 129, 129, 0.2);
+          color: #777;
+        }
+        & .Search_Input::placeholder {
+          color: #777;
+        }
+      }
+      .Container_End {
+        width: 29%;
+        height: 120px;
+        // margin-right: -10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        & .Login_SignUp {
+          width: 182.359px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          padding: 0px 10px;
+          margin-left: 20px;
 
-          & .heart {
-            font-size: 20px;
+          & .Login {
+            color: #333;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: 600;
           }
-
-          & .heart:hover {
-            font-size: 20px;
+          & .SignUp {
+            color: #333;
+            font-size: 13px;
+            text-decoration: none;
+            margin-left: 3px;
+            font-weight: 600;
+          }
+          & .Login:hover {
+            color: #333;
+            font-size: 13px;
             color: rgba(51, 51, 51, 0.6);
+            text-decoration: none;
+            font-weight: 600;
+          }
+          & .SignUp:hover {
+            color: #333;
+            font-size: 13px;
+            text-decoration: none;
+            margin-left: 3px;
+            color: rgba(51, 51, 51, 0.6);
+            font-weight: 600;
+          }
+          & .slash {
+            margin-left: 3px;
+            font-weight: 500;
           }
         }
-      }
-
-      & .basket {
-        width: 94.328px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: space-evenly;
-
-        & .shopping {
-          color: #333;
-        }
-
-        & .invoice {
-          font-weight: 600;
-          color: #333;
-          font-size: 14px;
-        }
-
-        & .invoice:hover {
-          font-weight: 600;
+        &.Login_SignUp:hover {
           color: rgba(51, 51, 51, 0.6);
-          font-size: 14px;
           cursor: pointer;
         }
-      }
+        & .Wish_List {
+          width: 45px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
 
-      & .basket:hover {
-        color: rgba(51, 51, 51, 0.6);
-        cursor: pointer;
+          & .Wish_List_Send {
+            font-size: 20px;
+            text-decoration: none;
+            position: relative;
+            color: black;
+            & .heart {
+              font-size: 20px;
+            }
+            & .heart:hover {
+              font-size: 20px;
+              color: rgba(51, 51, 51, 0.6);
+            }
+          }
+        }
+        & .basket {
+          width: 94.328px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: space-evenly;
+          & .shopping {
+            color: #333;
+          }
+          & .invoice {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+          }
+          & .invoice:hover {
+            font-weight: 600;
+            color: rgba(51, 51, 51, 0.6);
+            font-size: 14px;
+            cursor: pointer;
+          }
+        }
+        & .basket:hover {
+          color: rgba(51, 51, 51, 0.6);
+          cursor: pointer;
+        }
       }
     }
   }
 
-  & .Container_Bottom {
+  .Container_Bottom {
     width: 100%;
     height: 52px;
     display: flex;
@@ -317,203 +761,417 @@ ul {
     justify-content: space-between;
     color: #333;
 
-    & .map_half {
-      //   width: 99.25px;
-      //   height: 40px;
+    .container-bottom-share-two {
       display: flex;
       align-items: center;
       text-align: center;
-      color: #333;
-      justify-content: center;
-
-      & .maps {
+      justify-content: space-between;
+      .map_half {
+        //   width: 99.25px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
         color: #333;
-        font-weight: 600;
-        font-size: 13px;
-        // border-right: 1px solid #777;
-        padding-right: 10px;
-      }
-
-      & .maps:hover {
-        color: #777;
-        cursor: pointer;
-      }
-    }
-
-    & .map_halfTwo {
-      //   width: 234.5px;
-      //   height: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .fantastic_Maps {
-        font-size: 13px;
-        font-weight: 600;
-        color: #333;
-        // border-right: 1px solid #777;
-        padding-right: 10px;
-      }
-
-      & .fantastic_Maps:hover {
-        color: #777;
-        cursor: pointer;
-      }
-    }
-
-    & .map_halfThree {
-      //   width: 187.25px;
-      //   height: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .bathymetric_Maps {
-        color: #333;
-        font-weight: 600;
-        font-size: 13px;
-        // border-right: 1px solid #777;
-        padding-right: 10px;
-      }
-
-      & .bathymetric_Maps:hover {
-        color: #777;
-        cursor: pointer;
-      }
-    }
-
-    & .map_halfFour {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-
-      &:hover {
-        margin-top: 185px;
-        transition: 0.3s;
-
-        .dropdown {
-          display: block;
-          z-index: 100;
-          padding: 20px 20px 20px 20px;
-        }
-      }
-
-      //   width: 104.25px;
-      //   height: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .dropdown {
-        width: 200px;
-        height: 185px;
-        display: none;
-        text-align: left;
-        background-color: white;
-        transition: 10.5s;
-
-        .vintage:hover {
-          color: black;
+        justify-content: center;
+        .maps {
+          color: #333;
           font-weight: 600;
+          font-size: 13px;
+          // border-right: 1px solid #777;
+          padding-right: 10px;
+        }
+        .maps:hover {
+          color: #777;
           cursor: pointer;
         }
-
-        .city:hover {
-          cursor: pointer;
-          color: black;
+      }
+      .map_halfTwo {
+        //   width: 234.5px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        .fantastic_Maps {
+          font-size: 13px;
           font-weight: 600;
+          color: #333;
+          // border-right: 1px solid #777;
+          padding-right: 10px;
+        }
+        & .fantastic_Maps:hover {
+          color: #777;
+          cursor: pointer;
+        }
+      }
+      & .map_halfThree {
+        //   width: 187.25px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        & .bathymetric_Maps {
+          color: #333;
+          font-weight: 600;
+          font-size: 13px;
+          // border-right: 1px solid #777;
+          padding-right: 10px;
+        }
+        & .bathymetric_Maps:hover {
+          color: #777;
+          cursor: pointer;
+        }
+      }
+      & .map_halfFour {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &:hover {
+          margin-top: 185px;
+          transition: 0.3s;
+          .dropdown {
+            display: block;
+            z-index: 100;
+            padding: 20px 20px 20px 20px;
+          }
         }
 
-        .botancial:hover {
+        //   width: 104.25px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        & .dropdown {
+          width: 200px;
+          height: 185px;
+          display: none;
+          text-align: left;
+          background-color: white;
+          transition: 10.5s;
+          .vintage:hover {
+            color: black;
+            font-weight: 600;
+            cursor: pointer;
+          }
+          .city:hover {
+            cursor: pointer;
+            color: black;
+            font-weight: 600;
+          }
+          .botancial:hover {
+            cursor: pointer;
+            color: black;
+            font-weight: 600;
+          }
+          .all:hover {
+            cursor: pointer;
+            color: black;
+            font-weight: 600;
+          }
+        }
+        & .charts {
+          color: #333;
+          font-weight: 600;
+          font-size: 13px;
+          padding-right: 10px;
+        }
+        .charts:hover {
+          color: #777;
           cursor: pointer;
-          color: black;
+        }
+      }
+      & .map_halfFife {
+        //   width: 141.25px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        & .crowatchClock {
+          color: #333;
+          font-weight: 600;
+          // border-right: 1px solid #777;
+          padding-right: 10px;
+          font-size: 13px;
+        }
+        & .crowatchClock:hover {
+          color: #777;
+          cursor: pointer;
+        }
+      }
+      & .map_halfSexy {
+        //   width: 128.25px;
+        //   height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        & .Crowart {
+          color: #333;
+          font-weight: 600;
+          // border-right: 1px solid #777;
+          padding-right: 10px;
+          font-size: 13px;
+        }
+        & .Crowart:hover {
+          color: #777;
+          cursor: pointer;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        #container_text {
+          font-size: 11px;
+          padding-right: 10px;
+          color: #333;
           font-weight: 600;
         }
-
-        .all:hover {
-          cursor: pointer;
-          color: black;
-          font-weight: 600;
-        }
-      }
-
-      & .charts {
-        color: #333;
-        font-weight: 600;
-        font-size: 13px;
-        padding-right: 10px;
-      }
-
-      .charts:hover {
-        color: #777;
-        cursor: pointer;
-      }
-    }
-
-    & .map_halfFife {
-      //   width: 141.25px;
-      //   height: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .crowatchClock {
-        color: #333;
-        font-weight: 600;
-        // border-right: 1px solid #777;
-        padding-right: 10px;
-        font-size: 13px;
-      }
-
-      & .crowatchClock:hover {
-        color: #777;
-        cursor: pointer;
-      }
-    }
-
-    & .map_halfSexy {
-      //   width: 128.25px;
-      //   height: 40px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      & .Crowart {
-        color: #333;
-        font-weight: 600;
-        // border-right: 1px solid #777;
-        padding-right: 10px;
-        font-size: 13px;
-      }
-
-      & .Crowart:hover {
-        color: #777;
-        cursor: pointer;
       }
     }
   }
+}
+//  @media screen and (max-width: 992px) {
+//     .flexMiddle {
+//       width: 100%;
+//       height: 60px;
+//       // background-color: red;
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: space-between;
+//       padding: 0px 10px;
+//       .LogoCrowart {
+//         width: 150px;
+//         height: 60px;
+//       }
+//     }
+//     & .navigation-Bar {
+//       position: fixed;
+//       right: 0;
+//       bottom: 0;
+//       left: 0;
+//       z-index: 350;
+//       overflow-x: auto;
+//       overflow-y: hidden;
+//       -webkit-overflow-scrolling: touch;
+//       background-color: white;
+//       box-shadow: 0 0 9px rgb(0 0 0 / 12%);
+//       height: 56px;
+//       padding: 5px;
+//       display: flex;
+//       justify-content: space-between;
+//       text-align: center;
+//       align-items: center;
+//       .journal {
+//         width: 25%;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         .shopIcon {
+//           color: #333;
+//           width: 100%;
+//           height: 50px;
+//           display: flex;
+//           align-items: flex-end;
+//           text-align: center;
+//           justify-content: center;
+//         }
+//         .shopText {
+//           color: #333;
+//           font-size: 11px;
+//           height: 30px;
+//         }
+//       }
+//       .filter {
+//         width: 25%;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         .shopIcon {
+//           color: #333;
+//           width: 100%;
+//           height: 50px;
+//           display: flex;
+//           align-items: flex-end;
+//           text-align: center;
+//           justify-content: center;
+//         }
+//         .shopText {
+//           color: #333;
+//           font-size: 11px;
+//           height: 30px;
+//         }
+//       }
+//       .sebet {
+//         flex-direction: column;
+//         width: 25%;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         .shopIcon {
+//           color: #333;
+//           width: 100%;
+//           height: 50px;
+//           display: flex;
+//           align-items: flex-end;
+//           text-align: center;
+//           justify-content: center;
+//         }
+//         .shopText {
+//           color: #333;
+//           font-size: 11px;
+//           height: 30px;
+//         }
+//       }
+//       .menuBar {
+//         width: 20%;
+//         flex-direction: column;
+//         display: flex;
+//         align-items: center;
+//         text-align: center;
+//         justify-content: center;
+//         .shopIcon {
+//           color: #333;
+//           width: 100%;
+//           height: 50px;
+//           display: flex;
+//           align-items: flex-end;
+//           text-align: center;
+//           justify-content: center;
+//         }
+//         .shopText {
+//           color: #333;
+//           font-size: 11px;
+//           height: 30px;
+//         }
+//       }
+//     }
+//     .Container_Bottom {
+//       display: none;
+//     }
+//     .Contact_Header {
+//       display: flex;
+//       align-items: center;
+//       text-align: center;
+//       justify-content: center;
+//     }
+//     .Container {
+//       display: none;
+//     }
+//     .Category {
+//       .Featured_Categories {
+//         .Category_Maps {
+//           .total_Maps {
+//             .imgTop {
+//               .Normal_Map_Pictures {
+//                 width: 330px !important;
+//                 height: 330px !important;
+//                 transition: transform 0.2s;
+//               }
+//               .mapText {
+//                 position: absolute;
+//                 border: 0;
+//                 width: 160px !important;
+//                 height: 50px !important;
+//                 background-color: #000;
+//                 color: #fff;
+//                 font-weight: 500;
+//                 font-size: 20px !important;
+//               }
+//             }
+//           }
+//           .add_Maps {
+//             .Bathymetric_Map_Maps {
+//               .Bathymetric {
+//                 width: 165px !important;
+//                 height: 165px !important;
+//                 object-fit: cover;
+//                 transition: transform 0.2s;
+//                 padding: 15px;
+//               }
+//               .mapText2 {
+//                 position: absolute;
+//                 border: 0;
+//                 width: 84px !important;
+//                 height: 49px !important;
+//                 background-color: #000;
+//                 color: #fff;
+//                 font-weight: 500;
+//                 font-size: 9px !important;
+//               }
+//               .Fantastic {
+//                 width: 165px !important;
+//                 height: 165px !important;
+//                 object-fit: cover;
+//                 transition: transform 0.2s;
+//                 padding: 15px;
+//               }
+//             }
+//             .Crowatch_Table_Maps {
+//               .totsmap2 {
+//                 .Crowatch {
+//                   width: 165px !important;
+//                   height: 165px !important;
+//                   object-fit: cover;
+//                   transition: transform 0.2s;
+//                   padding: 15px;
+//                 }
+//                 .mapText3 {
+//                   position: absolute;
+//                   border: 0;
+//                   width: 70px !important;
+//                   height: 39px !important;
+//                   background-color: #000;
+//                   color: #fff;
+//                   font-weight: 500;
+//                   font-size: 10px !important;
+//                 }
+//                 .Tablolar {
+//                   width: 165px !important;
+//                   height: 165px !important;
+//                   object-fit: cover;
+//                   transition: transform 0.2s;
+//                   padding: 15px;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
   @media screen and (max-width: 992px) {
+  header {
     .flexMiddle {
       width: 100%;
       height: 60px;
-      // background-color: red;
+      background-color: white;
       display: flex;
       align-items: center;
       text-align: center;
       justify-content: space-between;
       padding: 0px 10px;
-      .LogoCrowart {
-        width: 150px;
-        height: 60px;
+      // display: none;
+      .menuCategoryflex {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        .LogoCrowart {
+          width: 150px;
+          height: 60px;
+        }
       }
     }
-    & .navigation-Bar {
+    .navigation-Bar {
       position: fixed;
       right: 0;
       bottom: 0;
@@ -522,7 +1180,7 @@ ul {
       overflow-x: auto;
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
-      background-color: white;
+      background-color: #fff;
       box-shadow: 0 0 9px rgb(0 0 0 / 12%);
       height: 56px;
       padding: 5px;
@@ -530,6 +1188,12 @@ ul {
       justify-content: space-between;
       text-align: center;
       align-items: center;
+      .menuShare {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+      }
       .journal {
         width: 25%;
         display: flex;
@@ -631,81 +1295,81 @@ ul {
     .Container {
       display: none;
     }
-    .Category {
-      .Featured_Categories {
-        .Category_Maps {
-          .total_Maps {
-            .imgTop {
-              .Normal_Map_Pictures {
-                width: 330px !important;
-                height: 330px !important;
-                transition: transform 0.2s;
-              }
-              .mapText {
-                position: absolute;
-                border: 0;
-                width: 160px !important;
-                height: 50px !important;
-                background-color: #000;
-                color: #fff;
-                font-weight: 500;
-                font-size: 20px !important;
-              }
+  }
+  .Category {
+    .Featured_Categories {
+      .Category_Maps {
+        .total_Maps {
+          .imgTop {
+            .Normal_Map_Pictures {
+              width: 330px !important;
+              height: 330px !important;
+              transition: transform 0.2s;
+            }
+            .mapText {
+              position: absolute;
+              border: 0;
+              width: 160px !important;
+              height: 50px !important;
+              background-color: #000;
+              color: #fff;
+              font-weight: 500;
+              font-size: 20px !important;
             }
           }
-          .add_Maps {
-            .Bathymetric_Map_Maps {
-              .Bathymetric {
+        }
+        .add_Maps {
+          .Bathymetric_Map_Maps {
+            .Bathymetric {
+              width: 165px !important;
+              height: 165px !important;
+              object-fit: cover;
+              transition: transform 0.2s;
+              padding: 15px;
+            }
+            .mapText2 {
+              position: absolute;
+              border: 0;
+              width: 84px !important;
+              height: 49px !important;
+              background-color: #000;
+              color: #fff;
+              font-weight: 500;
+              font-size: 9px !important;
+            }
+            .Fantastic {
+              width: 165px !important;
+              height: 165px !important;
+              object-fit: cover;
+              transition: transform 0.2s;
+              padding: 15px;
+            }
+          }
+          .Crowatch_Table_Maps {
+            .totsmap2 {
+              .Crowatch {
                 width: 165px !important;
                 height: 165px !important;
                 object-fit: cover;
                 transition: transform 0.2s;
                 padding: 15px;
               }
-              .mapText2 {
+              .mapText3 {
                 position: absolute;
                 border: 0;
-                width: 84px !important;
-                height: 49px !important;
+                width: 70px !important;
+                height: 39px !important;
                 background-color: #000;
                 color: #fff;
                 font-weight: 500;
-                font-size: 9px !important;
+                font-size: 10px !important;
               }
-              .Fantastic {
+              .Tablolar {
                 width: 165px !important;
                 height: 165px !important;
                 object-fit: cover;
                 transition: transform 0.2s;
                 padding: 15px;
-              }
-            }
-            .Crowatch_Table_Maps {
-              .totsmap2 {
-                .Crowatch {
-                  width: 165px !important;
-                  height: 165px !important;
-                  object-fit: cover;
-                  transition: transform 0.2s;
-                  padding: 15px;
-                }
-                .mapText3 {
-                  position: absolute;
-                  border: 0;
-                  width: 70px !important;
-                  height: 39px !important;
-                  background-color: #000;
-                  color: #fff;
-                  font-weight: 500;
-                  font-size: 10px !important;
-                }
-                .Tablolar {
-                  width: 165px !important;
-                  height: 165px !important;
-                  object-fit: cover;
-                  transition: transform 0.2s;
-                  padding: 15px;
-                }
               }
             }
           }
@@ -713,6 +1377,9 @@ ul {
       }
     }
   }
+}
+.container {
+ 
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
   * {
