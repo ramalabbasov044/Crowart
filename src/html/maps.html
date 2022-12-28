@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/maps.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Libre+Franklin:wght@300;600;800&family=Montserrat:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600&family=Poppins:wght@500&family=Saira+Extra+Condensed&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="Contact_Header">
+        <div></div>
+        <div class="Contact_End">
+          <div class="Contact_End_Social">
+            <div class="Facebook_Box">
+              <i class="fa-brands fa-facebook-f Social_Facebook_Icon"></i>
+            </div>
+            <div class="Twitter_Box">
+              <i class="fa-brands fa-twitter Social_Twitter_Icon"></i>
+            </div>
+            <div class="Instagram_Box">
+              <i class="fa-brands fa-instagram Social_Instagram_Icon"></i>
+            </div>
+          </div>
+          <div class="Contact_Link">
+            <a class="text_Decoration" href="">
+              <span class="Contact_Text">İLETİŞİM</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="Container">
+        <div class="Main_Logo">
+          <img class="Logo" src="../img/Crowart_logo.webp" alt="" />
+        </div>
+        <div class="Product_Search">
+          <input
+            class="Search_Input"
+            type="text"
+            placeholder="Aramak istediğiniz ürünü yazınız"
+          />
+        </div>
+        <div class="Container_End">
+          <div class="Login_SignUp">
+            <a class="Login" href="../html/login.html">GİRİŞ YAP</a>
+            <span class="slash"> / </span>
+            <a class="SignUp" href="../html/signup.html"> KAYIT OL</a>
+          </div>
+          <div class="Wish_List">
+            <a class="Wish_List_Send" href="">
+              <i class="fa-regular fa-heart heart"></i>
+            </a>
+          </div>
+          <div class="basket">
+            <a href="../html/product_detail.html">
+              <i class="fa-solid fa-cart-shopping shopping"></i>
+              <span class="invoice">0.00₺</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="Container_Bottom">
+        <div class="map_half">
+          <a class="maps" href="">HARİTALAR</a>
+        </div>
+        <div class="map_halfTwo">
+          <a class="fantastic_Maps" href="">TARİHİ&FANTASTİK HARİTALAR</a>
+        </div>
+        <div class="map_halfThree">
+          <a class="bathymetric_Maps" href="">BATİMETRİK HARİTALAR</a>
+        </div>
+        <div class="map_halfFour">
+          <a class="charts" href="">TABLOLAR</a>
+          <div class="dropdown">
+            <p class="vintage">Vintage Haritalar</p>
+            <p class="city">Şehir Posterleri</p>
+            <p class="botancial">Botanical</p>
+            <p class="all">Genel</p>
+          </div>
+        </div>
+        <div class="map_halfFife">
+          <a class="crowatchClock" href="">CROWATCH SAAT</a>
+        </div>
+        <div class="map_halfSexy">
+          <a class="Crowart" href="">CROWART KIDS</a>
+        </div>
+      </div>
+      <div class="go_to_stories">
+        <div class="unSendHomePage">
+          <a class="arrow" href="../html/index.html">
+            <i class="fa-solid fa-arrow-left arrow"></i>
+          </a>
+          <h1 class="harita">Haritalar</h1>
+        </div>
+        <div class="listProduct">
+          <div class="miniList">
+            <a href="../html/maps.html" class="textmap">HARİTALAR</a>
+            <p class="urun">16 Ürün</p>
+          </div>
+          <div class="miniList">
+            <a href="" class="textmap">Batimetrik Haritalar</a>
+            <p class="urun">8 Ürün</p>
+          </div>
+          <div class="miniList">
+            <a href="" class="textmap">Tarihi & Fantastik Haritalar</a>
+            <p class="urun">7 Ürün</p>
+          </div>
+          <div class="miniList">
+            <a href="" class="textmap">Crowatch</a>
+            <p class="urun">7 Ürün</p>
+            <div></div>
+          </div>
+          <div class="miniList">
+            <a href="" class="textmap">Tablolar</a>
+            <p class="urun">16 Ürün</p>
+          </div>
+          <div class="miniList">
+            <a href="" class="textmap">Crowart KIDS</a>
+            <p class="urun">35 Ürün</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 order-md-2 col-lg-9">
+          <div class="container-fluid">
+            <div
+              class="d-flex text-center justify-content-between align-items-center"
+            >
+              <div>
+                <a href="../html/index.html" style="color: #727272"
+                  >Ana Sayfa</a
+                >
+              </div>
+              <div class="totTime">
+                <div class="square">
+                  <div class="d-flex">
+                    <div class="romb"></div>
+                    <div class="romb"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="romb"></div>
+                    <div class="romb"></div>
+                  </div>
+                </div>
+                <div class="square">
+                  <div class="d-flex">
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                    <div class="rombTwo"></div>
+                  </div>
+                </div>
+                <div class="square2">
+                  <div class="d-flex">
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                    <div class="rombThree"></div>
+                  </div>
+                </div>
+                <select class="selected" name="" id="">
+                  <option value="">Varsayılan Sıralama</option>
+                  <option value="">En çok incelenene göre sırala</option>
+                  <option value="">En çok oy alana göre sırala</option>
+                  <option value="">En yeniye göre sırala</option>
+                  <option value="">Fiyata göre sırala: Düşükten yükseğe</option>
+                  <option value="">Fiyata göre sırala: Yüksekten düşüğe</option>
+                </select>
+              </div>
+            </div>
+            <!-- <div class="row   mb-5"> -->
+            <!-- <div class="col-12">
+                        <div class="dropdown text-md-left text-center float-md-left mb-3 mt-3 mt-md-0 mb-md-0">
+                       
+                        </div>
+                        <div class="btn-group float-md-right ml-3">
+                          <button type="button" class="btn btn-lg btn-light"> <span class="fa fa-arrow-left"></span> </button>
+                          <button type="button" class="btn btn-lg btn-light"> <span class="fa fa-arrow-right"></span> </button>
+                        </div>
+                        
+                      </div>
+                    </div> -->
+            <div
+              class="tab-pane fade show active product_Contant"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <div class="card-group">
+                <div
+                  id="card"
+                  class="card left-hover"
+                  onmouseover="hover(this)"
+                  onmouseout="hide()"
+                >
+                  <div class="d-flex justify-content-between w-100">
+                    <h6 class="m-3 tukendi">TÜKENDİ</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <!-- <div id="compain" class="compain">
+                  <i class="fa-solid fa-code-compare compare"></i>
+                </div> -->
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi2">-14%</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi2">-14%</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi">TÜKENDİ</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-group">
+                <div
+                  id="card"
+                  class="card left-hover"
+                  onmouseover="hover(this)"
+                  onmouseout="hide()"
+                >
+                  <div class="d-flex justify-content-between w-100">
+                    <h6 class="m-3 tukendi">TÜKENDİ</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <!-- <div id="compain" class="compain">
+                  <i class="fa-solid fa-code-compare compare"></i>
+                </div> -->
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi2">-14%</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi2">-14%</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="m-3 tukendi">TÜKENDİ</h6>
+                    <i class="fa-solid fa-right-left m-3"></i>
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="../img/NW1-600x600.webp"
+                    alt="Card image cap"
+                  />
+                  <img
+                    class="card-img-bottom"
+                    src="../img/NW3-300x300.webp"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <p class="card-title">Crowatch Naturel World</p>
+                    <h6 class="card-text">395.00₺</h6>
+                    <div class="end_Share">
+                      <button class="heart_Icon">
+                        <i class="fa-regular fa-heart"></i>
+                      </button>
+                      <button class="SEÇENEKLER">
+                        <a
+                          style="color: white"
+                          href="../html/product_detail.html"
+                          >SEÇENEKLER</a
+                        >
+                      </button>
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 order-md-1 col-lg-3 sidebar-filter">
+          <h6 class="text-uppercase mb-3 categorys">KATEGORİLER</h6>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-1">
+                <a class="category_link" href=""> Batimetrik Haritalar </a>
+              </label>
+              <!--     -->
+            </div>
+          </div>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-2">
+                <a class="category_link" href="">Crowart KIDS</a>
+              </label>
+            </div>
+          </div>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-3">
+                <a class="category_link" href="">Crowatch </a>
+              </label>
+            </div>
+          </div>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-4">
+                <a class="category_link" href="">Haritalar</a>
+              </label>
+            </div>
+          </div>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-5">
+                <a class="category_link" href="">Tablolar</a>
+              </label>
+            </div>
+          </div>
+          <div class="mt-2 mb-2 pl-2">
+            <div class="custom-control custom-checkbox">
+              <label class="custom-control-label" for="category-6">
+                <a class="category_link" href="">
+                  Tarihi & Fantastik Haritalar
+                </a>
+              </label>
+            </div>
+          </div>
+          <div class="divider mt-5 mb-5 border-bottom border-secondary"></div>
+          <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">
+            FİYAT FİLTRESİ
+          </h6>
+          <div class="price-filter-control">
+            <input
+              type="number"
+              class="form-control w-50 pull-left mb-2"
+              value="50"
+              id="price-min-control"
+            />
+            <input
+              type="number"
+              class="form-control w-50 pull-right"
+              value="150"
+              id="price-max-control"
+            />
+          </div>
+          <input
+            id="ex2"
+            type="text"
+            class="slider"
+            value="50,150"
+            data-slider-min="10"
+            data-slider-max="200"
+            data-slider-step="5"
+            data-slider-value="[50,150]"
+            data-value="50,150"
+            style="display: none"
+          />
+          <div class="divider mt-5 mb-5 border-bottom border-secondary"></div>
+          <div
+            id="woocommerce_products-4"
+            class="wd-widget widget sidebar-widget woocommerce widget_products"
+          >
+            <h5 class="widget-title">Popüler Ürünler</h5>
+            <ul class="product_list_widget">
+              <li>
+                <span class="widget-product-wrap">
+                  <a
+                    href="../html/product_detail.html"
+                    title="Crowatch Naturel World"
+                    class="widget-product-img"
+                  >
+                    <img src="../img/NW1-600x600.webp" alt="" />
+                  </a>
+                  <span class="widget-product-info">
+                    <a
+                      href="../html/product_detail.html"
+                      title="Crowatch Naturel World"
+                      class="wd-entities-title"
+                    >
+                      Crowatch Naturel World
+                    </a>
+                    <div
+                      class="star-rating"
+                      role="img"
+                      aria-label="5 üzerinden 5.00 oy aldı"
+                    >
+                      <span style="width: 100%">
+                        "5 üzerinden "
+                        <strong class="rating">5.00</strong>
+                        " oy aldı"
+                      </span>
+                    </div>
+                    <span class="price"> 395.00₺ </span>
+                  </span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-area footer--light">
+        <div class="footer-big">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <div class="footer-widget">
+                  <div class="widget-about">
+                    <img
+                      src="../img/Crowart_logo.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <p class="Crowarts">
+                      Crowart sizi heyecanlandıracak, değer katacak, ürünleri
+                      sizler için hazırlar ve size sunar.
+                    </p>
+                    <ul class="contact-details">
+                      <li>
+                        <span class="icon-earphones"></span>
+                        <div>
+                          <i
+                            class="fa fa-location-arrow"
+                            style="
+                              width: 15px;
+                              text-align: center;
+                              margin-right: 4px;
+                            "
+                          ></i>
+                          <a class="textAdress" href="tel:344-755-111"
+                            >Gazi Osman Paşa mh. Aliağa sk. No 31 – A Tekirdağ /
+                            Çerkezköy</a
+                          >
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <i
+                            class="fa fa-mobile"
+                            style="
+                              width: 15px;
+                              text-align: center;
+                              margin-right: 4px;
+                            "
+                          ></i>
+                          <a href="mailto:support@aazztech.com"
+                            >Telefon: 0282 726 7770</a
+                          >
+                        </div>
+                        <div>
+                          <i
+                            class="fa-regular fa-envelope"
+                            style="
+                              width: 15px;
+                              text-align: center;
+                              margin-right: 4px;
+                            "
+                          ></i>
+                          <a href="mailto:support@aazztech.com"
+                            >Mail: hello@crowart.com.tr</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="footer-widget">
+                  <div class="footer-menu footer-menu--1">
+                    <h4 class="footer-widget-title">SON YAZILAR</h4>
+                    <div class="d-flex">
+                      <img
+                        src="../img/crowart-harita-montaj-p47vrxdd37igoged9n7bzlc8iouyi3zmi04f0xjlz6.jpeg"
+                        alt=""
+                      />
+                      <span class="haritam">Haritamı Nasıl Monte Ederim?</span>
+                    </div>
+                  </div>
+                  <!-- end /.footer-menu -->
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-4">
+                <div class="footer-widget">
+                  <div class="footer-menu">
+                    <h4 class="footer-widget-title">Our Company</h4>
+                    <ul>
+                      <li>
+                        <a href="#">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#">How It Works</a>
+                      </li>
+                      <li>
+                        <a href="#">Affiliates</a>
+                      </li>
+                      <li>
+                        <a href="#">Testimonials</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="#">Plan &amp; Pricing</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end /.footer-menu -->
+                </div>
+                <!-- Ends: .footer-widget -->
+              </div>
+
+              <div class="col-md-3 col-sm-4">
+                <div class="footer-widget">
+                  <div class="footer-menu no-padding">
+                    <h4 class="footer-widget-title">Help Support</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Support Forum</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms &amp; Conditions</a>
+                      </li>
+                      <li>
+                        <a href="#">Support Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Refund Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">FAQs</a>
+                      </li>
+                      <li>
+                        <a href="#">Buyers Faq</a>
+                      </li>
+                      <li>
+                        <a href="#">Sellers Faq</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end /.footer-menu -->
+                </div>
+                <!-- Ends: .footer-widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="copyright-text">
+                  <p>Tüm hakları saklıdır. | All rights reserved. 2019-2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../js/maps.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </body>
+</html>
