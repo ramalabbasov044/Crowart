@@ -1378,6 +1378,11 @@ header {
     }
   }
 }
+@media screen and (max-width: 575px) {
+    .widget-about img{
+      margin-top: 2400px;
+    }
+}
 .container {
  
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");

@@ -446,8 +446,18 @@ header {
     }
   }
 }
-main{
+main {
   height: 100% !important;
+}
+.pop {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  transition: 1s;
+  left: 0%;
+}
+.hamburgerMenu {
+  left: 100%;
 }
 .Slider {
   color: #fff;
@@ -768,7 +778,6 @@ main{
           padding: 20px;
         }
         & .end_Share {
-          padding: 0px 15px;
           width: 100%;
           height: 40px;
           display: flex;
@@ -821,6 +830,7 @@ main{
     // }
   }
 }
+
 @media screen and (max-width: 992px) {
   header {
     .flexMiddle {
@@ -940,6 +950,7 @@ main{
         align-items: center;
         text-align: center;
         justify-content: center;
+        cursor: pointer;
         .shopIcon {
           color: #333;
           width: 100%;
@@ -1051,6 +1062,24 @@ main{
     }
   }
 }
+@media screen and (max-width: 991px) {
+  .featured_products
+    .product
+    .product_Contant
+    .card:hover
+    .end_Share
+    .SEÇENEKLER {
+    width: 85px;
+    height: 30px;
+    color: #fff;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 11px;
+  }
+}
 @media screen and (max-width: 768px) {
   .Category {
     .Featured_Categories {
@@ -1134,10 +1163,40 @@ main{
     }
   }
 }
-@media screen and (max-width: 575px) {
-    .widget-about img{
-      margin-top: 2400px;
+@media screen and (max-width: 767px) {
+ .featured_products .product .product_Contant .card:hover .end_Share {
+    width: 106%;
+    .SEÇENEKLER {
+      width: 60px;
+      height: 30px;
+      color: #fff;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-size: 8px;
     }
+  }
+}
+@media screen and (max-width: 575px) {
+  .widget-about img {
+    margin-top: 2400px;
+  }
+  .featured_products .product .product_Contant .card:hover .end_Share {
+    width: 100%;
+    .SEÇENEKLER {
+      width: 120px;
+      height: 30px;
+      color: #fff;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-size: 8px;
+    }
+  }
 }
 @media screen and (max-width: 553px) {
   .Category {
@@ -1514,11 +1573,7 @@ a {
 .footer-big ul li {
   color: #898b96;
 }
-.footer-big {
-  .container {
-    height: 300px;
-  }
-}
+
 .footer-menu {
   padding-left: 48px;
 }
