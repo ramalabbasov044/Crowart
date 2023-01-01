@@ -44,7 +44,12 @@
               <p class="shopText">Hesabim</p>
             </div>
             <div class="menuBar">
-              <i class="fa-solid fa-bars shopIcon"></i>
+              <!-- <i class="fa-solid fa-bars "></i> -->
+              <i
+                onclick="myFunction()"
+                style="margin-top: -4px"
+                class="fa fa-bars icon shopIcon"
+              ></i>
               <p class="shopText nav-toggle">Menü</p>
             </div>
           </div>
@@ -80,8 +85,13 @@
         <div class="container">
           <div class="menuCategoryflex">
             <div class="menu nav-toggle">
-              <i class="fa-solid fa-bars bars nav-toggle"></i>
+              <!-- <i class="fa-solid fa-bars bars nav-toggle"></i> -->
+              <i
+                onclick="myFunction()"
+                class="fa fa-bars icon bars nav-toggle"
+              ></i>
             </div>
+
             <div class="LogoCrowart">
               <img src="../img/Crowart_logo.webp" alt="" />
             </div>
@@ -98,6 +108,7 @@
             <div class="Main_Logo">
               <img class="Logo" src="../img/Crowart_logo.webp" alt="" />
             </div>
+
             <div class="Product_Search">
               <input
                 class="Search_Input"
@@ -184,12 +195,16 @@
     </header>
 
     <main>
-      <section>
-        <div class="hamburgerMenu">
-          
+      <div class="mobile-container">
+          <div class="topnav">
+            <div id="myLinks">
+              <div class="menuHam">
+                <div>Menu</div>
+                <div>Category</div>
+              </div>
+            </div>
         </div>
-      </section>
-
+      </div>
       <section>
         <div class="container">
           <div class="Slider">
@@ -653,23 +668,7 @@
       </div> -->
     </footer>
 
-    <script src="../js/main.js">
-      //       $( ".close" ).hide();
-      // $( ".menu" ).hide();
-      // $( ".hamburger" ).click(function() {
-      // 	$( ".menu" ).slideToggle( "slow", function() {
-      // 		$( ".hamburger" ).hide();
-      // 		$( ".close" ).show();
-      // 	});
-      // });
-
-      // $( ".close" ).click(function() {
-      // 	$( ".menu" ).slideToggle( "slow", function() {
-      // 		$( ".close" ).hide();
-      // 		$( ".hamburger" ).show();
-      // 	});
-      // });
-    </script>
+    <script src="../js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
